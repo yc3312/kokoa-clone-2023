@@ -1,0 +1,33 @@
+#chat-screen {
+    background-color: #bacfde;
+}
+
+#chat-screen .alt-header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #bacfde;
+    z-index: 1;
+}
+#chat-screen .status-bar {
+    background-color: #bacfde;
+    z-index: 2; /*header보다 위에 위치하도록*/
+}
+
+.main-chat {
+    z-index: 0;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color: white;
+    background-color: var(--gray);
+    opacity: 0.6;
+    padding: 13px;
+    border-radius : 25px;
+}

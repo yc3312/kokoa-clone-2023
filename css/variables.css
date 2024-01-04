@@ -1,0 +1,6 @@
+:root {
+    --yellow : #fae100; /*로그인 창 누르면 색 변하는 거*/
+    --horizontal-space : 20px; /*title, img 등 padding*/
+    --main-border: 1px solid rgba(0,0,0,0.2); /*border bottom에 한 줄 그어진 거*/
+    --gray : rgba(0,0,0,0.4);
+}

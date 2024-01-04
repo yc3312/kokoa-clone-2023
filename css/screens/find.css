@@ -1,0 +1,90 @@
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+.recommended-friends__title {
+    font-size: 12px;
+    color: var(--gray);
+}
+.recommended-friends span {
+    margin:100px 0px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+    margin-bottom: 25px;
+}
+.open-chat__header span { /*이 부분이 더 연해서*/
+    opacity: 0.6;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.open-post__hashtags {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.open-post__members {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+.open-post__members img{
+    width: 15px;
+    height: 15px;
+    border-radius:  50%;
+    margin-right: 5px;
+}
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.open-post__members .divider {
+    width: 1px;
+    height: 15px;
+    background-color: var(--gray);
+    margin: 0 5px;
+}
+.open-post__member-status {
+    color: #ffb0e0;
+}
+.open-post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.open-post__heart-count {
+    background-color: var(--gray);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 12px;
+}
+.open-post__heart-count span {
+    margin-left: 4px;
+}
+.open-post__photo {
+    position: relative;
+}

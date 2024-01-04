@@ -1,0 +1,25 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px var(--horizontal-space) 20px; /*top left&right bottom */
+    margin-bottom: 15px;
+}
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+.screen-header__icons span {
+    margin-left: 25px;
+    position: relative;
+}
+/*6.21 과제*/
+.screen-header__dot {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    right: -4px;
+    top: -6px;
+}

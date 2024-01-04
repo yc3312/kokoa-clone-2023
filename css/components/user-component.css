@@ -1,0 +1,49 @@
+.user-component { /*두 개의 column 분리(화살표 떨어질 수 있도록)*/
+    justify-content: space-between;
+}
+
+.user-component, /*user-component : 두 개의 column */
+.user-component__column:first-child { /*img, text*/
+    display: flex;
+    align-items: center;
+}
+
+.user-component__title {
+    font-weight: 600;
+    font-size: 22px;
+}
+.user-component__title--not-bold{
+    font-weight: 400;
+}
+.user-component__subtitle {
+    margin-top: 8px;
+    font-size: 17px;
+    color: var(--gray);
+}
+
+.user-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.user-component__avatar--xl{
+    width: 80px;
+    height: 70px;
+}
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__column:last-child { /*오른쪽에 쓰이는 거 회색으로*/
+    color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user-component__time{
+    display: block;
+    margin-bottom: 10px;
+}
