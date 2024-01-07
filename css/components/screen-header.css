@@ -23,3 +23,16 @@
     right: -4px;
     top: -6px;
 }
+
+/*아이콘 위에 마우스 올리면 돌아가도록*/
+@keyframes rotateGear {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-gear:hover {  
+    animation: rotateGear 1.5s linear infinite;
+}
